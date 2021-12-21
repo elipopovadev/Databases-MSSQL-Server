@@ -113,12 +113,12 @@ FROM Employees;
 --22.All Mountain Peaks
 USE Geography;
 Select PeakName
- From Peaks
+ FROM Peaks
   ORDER BY PeakName;
 
 --23.Biggest Countries by Population
 SELECT TOP(30) CountryName, Population
- From Countries
+ FROM Countries
   WHERE ContinentCode LIKE 'EU'
    ORDER BY [Population] DESC, CountryName;
 
