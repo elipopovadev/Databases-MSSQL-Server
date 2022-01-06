@@ -148,15 +148,3 @@ WHERE Salary > (SELECT AVG(Salary)
                GROUP BY DepartmentID)
 			   ORDER BY DepartmentID;
 
-
-
-
-
-
-
-
-
-
-
-
-
