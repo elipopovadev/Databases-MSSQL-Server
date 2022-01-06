@@ -128,6 +128,26 @@ SELECT COUNT(SALARY) AS Count
 FROM Employees
 WHERE ManagerID IS NULL;
 
+--18. *3rd Highest Salary
+WITH CTE AS
+(
+SELECT  DepartmentID, SALARY,
+DENSE_RANK() OVER (PARTITION BY DepartmentID ORDER BY SALARY DESC ) RANK_SALARY
+FROM Employees
+)
+
+SELECT DISTINCT (DepartmentID), SALARY AS ThirdHighestSalary
+FROM CTE
+WHERE RANK_SALARY = 3;
+
+--19. **Salary Challenge
+SELECT TOP (10) FirstName, LastName, DepartmentID FROM Employees AS e1
+WHERE Salary > (SELECT AVG(Salary)
+               FROM Employees AS e2
+			   WHERE e1.DepartmentID = e2.DepartmentID
+               GROUP BY DepartmentID)
+			   ORDER BY DepartmentID;
+
 
 
 
