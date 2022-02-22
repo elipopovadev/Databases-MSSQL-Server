@@ -1,4 +1,12 @@
 # Course content:
 
+* Databases Introduction. Data definition and datatypes.
+* Basic CRUD
+* Built-in Functions
+* Data Aggregation
+* Table Relations 
+* Subqueries and Joins
+* Database Programmabilty and Transactions
+* Triggers and Transactions
 
-![!](https://user-images.githubusercontent.com/75258625/155233114-9b52cf00-7886-4e6a-b8fc-1c42a28c227c.png)
+All materials & resources belong to the SoftUni foundation. No copyright infringement intended.
