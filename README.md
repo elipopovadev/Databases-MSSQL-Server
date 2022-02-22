@@ -11,4 +11,5 @@
 * Database Programmabilty and Transactions
 * Triggers and Transactions
 
+
 All materials & resources belong to the SoftUni foundation. No copyright infringement intended.
