@@ -3,12 +3,12 @@
 # Course content:
 
 * Databases Introduction. Data definition and datatypes.
-* Basic CRUD
+* CRUD
+* Table Relations
 * Built-in Functions
-* Data Aggregation
-* Table Relations 
 * Subqueries and Joins
-* Database Programmabilty and Transactions
+* Indices and Data Aggregation
+* Functions and Stored Procedures
 * Triggers and Transactions
 
 
