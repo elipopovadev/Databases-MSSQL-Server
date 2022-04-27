@@ -1,10 +1,7 @@
 # Databases MSSQL Server 
 
-<br/>
 ![!](https://user-images.githubusercontent.com/75258625/155233844-a874db91-d57e-416c-be9c-b5a402cdf0cf.png)
 
-<br/>
-<br/>
 
 ### Course content:
 
